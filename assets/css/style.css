@@ -15,9 +15,13 @@
     GENERAL STYLES
 ==================================================*/
 body {
-    font-family: "Microsoft YaHei", "微软雅黑",'SimSun', sans-serif;
+    /*font-family: "Microsoft YaHei", "微软雅黑",'SimSun', sans-serif;*/
+    font-family:"SimSun";
     font-size:18px;
     letter-spacing: 1px;
+    
+    background-color: #fcf9f9;
+    font-weight: 200!important;
 }
 
 .text-center {
@@ -25,17 +29,20 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-   font-family: 'Open Sans', sans-serif;
+   /*font-family: 'Open Sans', sans-serif;*/
    letter-spacing: 3px;
 }
 
 h1 {
-    margin-top:180px;
     text-transform:uppercase;
+    font-size: 60px !important;
+    font-weight: 600!important;
+    color: #092a35;
+    opacity: 0.9;
    
 }
 h2 {
-    color:#27C00A;
+    color:#092a35;
     font-size: 35px;
 }
     h2:after {
@@ -43,7 +50,7 @@ h2 {
 content: "";
 height: 2px;
 width: 150px;
-background: #27C00A;
+background: #092a35;
 margin: 10px auto 40px;
 
     }
@@ -78,17 +85,17 @@ section {
     COLOR CODES
 ==================================================*/
 .main-color {
-    color: #27C00A;
+    color: #7cbd1e;
 }
 
 /*=======================================
     NAVIGATION STYLES
 ==================================================*/
 .navbar a {
-    color:#ffffff !important;
+    color:#fcf9f9 !important;
 }
 .navbar-header a {
-    color:#ffffff !important;
+    color:#fcf9f9 !important;
     padding-right:100px;
 }
 
@@ -106,8 +113,8 @@ nav {
 }
 
 .navbar-inverse {
-background-color: #27C00A;
-border-color: #05A250;
+background-color: #092a35;
+border-color: #cfee91;
 }
 
 
@@ -115,25 +122,31 @@ border-color: #05A250;
     HEADER STYLES
 ==================================================*/
 
+
 .head-main {
-   font-size: 60px !important;
-font-weight: 600!important;
- color:#27C00A;
-     background-color: #fff;
-    opacity: 0.9;
+    /*margin-top: 200px;*/
+    /*background-color: #092a35;*/
 }
 .head-sub-main {
     font-size:30px !important;
     font-weight:600!important;
     padding:5px 5px 5px 5px;
-    color: #27C00A;
-    background-color: #fff;
+    color: #7cbd1e;
     opacity: 0.9;
+    
+        padding:5px;
+    background-color: rgba(248, 238, 180, 0.5);
+margin-top: 200px;
+color: #fff;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+margin-bottom:200px;
 }
 .head-last {
   
     padding:5px 20px 200px 20px;
-    color:#27C00A;
+    color:#7cbd1e;
     font-weight:600!important;
 }
 #home {
@@ -142,22 +155,62 @@ background-repeat: no-repeat;
 background-position: center 0;
 background-size: cover;
 background-attachment: fixed;
-min-height:550px;
+/*min-height:550px;*/
 }
 .div-trans {
     padding:5px;
-    background-color: rgba(0, 255, 41, 0.25);
-min-height: 350px;
-margin-top: 200px;
+    background-color: rgba(255, 255, 255, 0.8);
+margin-top: 150px;
 color: #fff;
 -webkit-border-radius: 5px;
 -moz-border-radius: 5px;
-border-radius: 5px;
-margin-bottom:30px;
+border-radius: 8px;
+margin-bottom:160px;
+
+border-style: solid; border-color: #092a35;
+
 }
     .div-trans .form-control {
         background-color: rgba(255, 255, 255, 0);
     }
+
+
+@media (max-width: 767px) { 
+#home {
+     
+     background-size: contain;
+}
+
+
+.div-trans {
+    padding:5px;
+    background-color: rgba(255, 255, 255, 0.8);
+margin-top: 100px;
+color: #fff;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 8px;
+margin-bottom:0px;
+
+border-style: solid; border-color: #092a35;
+
+}
+
+   h1 {
+    text-transform:uppercase;
+    font-size: 30px !important;
+    font-weight: 600!important;
+    color: #092a35;
+    opacity: 0.9;
+    }
+
+.contact-text{
+    font-size:15px;
+}
+
+}
+
+
 
 /*=======================================
     Services  STYLES
@@ -175,7 +228,7 @@ background-repeat: no-repeat;
 background-position: center 0;
 background-size: cover;
 background-attachment: fixed;
-min-height:250px;
+min-height:200px;
 color:#fff;
 }
  #Parallax-one i {
@@ -187,7 +240,7 @@ color:#fff;
 
 
 .plan {
-    background: #CCFF99;
+    background: #092a35;
     padding: 0 0 15px 0;
     margin: 30px 0px;
     list-style: none;
@@ -207,7 +260,7 @@ color:#fff;
 }
 .plan li {
     padding: 22px 0px;
-    color: #434749;
+    color: #fff;
     border-top: 1px dashed #000;
     font-size: 24px;
 }
@@ -228,13 +281,13 @@ border: none;
 font-size: 30px;
 }
 #Parallax-two {
-    background-image: url("../img/1.jpg");
+    background-image: url("../img/2.jpg");
 padding:30px;
 background-repeat: no-repeat;
 background-position: center 0;
 background-size: cover;
 background-attachment: fixed;
-min-height:250px;
+min-height:200px;
 color:#fff;
 }
     #Parallax-two i {
@@ -252,14 +305,19 @@ color:#fff;
      float:right;
 }
 
+.contact-text{
+    font-size:15px;
+    font-weight:100;
+}
+
 /*=======================================
     FOOTER STYLES
 ==================================================*/
 
 
 #footer {
-    background-color:#27C00A;
-    color:#fff;
+    background-color:#092a35;
+    color:#fcf9f9;
     padding:20px 50px 20px 50px;
     text-align:right;
 }
