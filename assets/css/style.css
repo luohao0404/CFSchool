@@ -6,7 +6,7 @@
 
     100% To use For Personal And Commercial Use.
     IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
-   
+
     ========================================================  */
 
 
@@ -19,7 +19,7 @@ body {
     font-family:"SimSun";
     font-size:18px;
     letter-spacing: 1px;
-    
+
     background-color: #fcf9f9;
     font-weight: 200!important;
 }
@@ -39,7 +39,7 @@ h1 {
     font-weight: 600!important;
     color: #092a35;
     opacity: 0.9;
-   
+
 }
 h2 {
     color:#092a35;
@@ -54,7 +54,7 @@ background: #092a35;
 margin: 10px auto 40px;
 
     }
-    
+
 
 h3 {
     line-height:30px;
@@ -106,9 +106,9 @@ nav {
     z-index:99;
 }
 .fixed {
-	position: fixed; 
-	top: 0; 
-	min-height: 50px; 
+	position: fixed;
+	top: 0;
+	min-height: 50px;
 	z-index: 99;
 }
 
@@ -133,7 +133,7 @@ border-color: #cfee91;
     padding:5px 5px 5px 5px;
     color: #7cbd1e;
     opacity: 0.9;
-    
+
         padding:5px;
     background-color: rgba(248, 238, 180, 0.5);
 margin-top: 200px;
@@ -144,7 +144,7 @@ border-radius: 5px;
 margin-bottom:200px;
 }
 .head-last {
-  
+
     padding:5px 20px 200px 20px;
     color:#7cbd1e;
     font-weight:600!important;
@@ -175,10 +175,10 @@ border-style: solid; border-color: #092a35;
     }
 
 
-@media (max-width: 767px) { 
+@media (max-width: 767px) {
 #home {
-     
-     background-size: contain;
+
+     /*background-size: contain;*/
 }
 
 
@@ -245,7 +245,7 @@ color:#fff;
     margin: 30px 0px;
     list-style: none;
     text-align: center;
-  
+
 }
 
 .plan-active {
@@ -264,6 +264,11 @@ color:#fff;
     border-top: 1px dashed #000;
     font-size: 24px;
 }
+
+.study-aboard li {
+  font-size: 18px;
+}
+　
 
 .plan li.plan-head {
    padding: 15px 0px;
@@ -310,6 +315,15 @@ color:#fff;
     font-weight:100;
 }
 
+.wechat-img {
+  margin-left:10px;
+  border-radius: 5px;
+  border-style: inset; border-color: #092a35;
+  width: 210px;
+  padding-left: 2px;
+
+}
+
 /*=======================================
     FOOTER STYLES
 ==================================================*/
@@ -321,4 +335,3 @@ color:#fff;
     padding:20px 50px 20px 50px;
     text-align:right;
 }
-
