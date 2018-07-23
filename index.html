@@ -30,6 +30,8 @@
     <![endif]-->
 </head>
 <body>
+
+
     <!-- Navigation -->
      <header>
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -54,9 +56,12 @@
                     <li><a href="#price-sec">课程设置</a>
                     </li>
 
+                    <li><a href="#study-abroad">留学直通</a>
+                    </li>
+
                     <li><a href="#contact-sec">联系我们</a>
                     </li>
-                   
+
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -66,44 +71,44 @@
           </header>
     <!--End Navigation -->
 
-    
 
-  
+
+
     <!--Header section  -->
     <div id="home">
     <div class="container" >
         <div class="row ">
-        
+
               <div class="col-md-4 col-md-offset-4 col-xs-8 col-xs-offset-2">
                    <div class="div-trans text-center">
-                       
+
                        <img src="assets/img/cfslogo.png" width="100%" height="100%" />
                        <div class="head-main">
                 <h1 >王冠の森</h1>
 
             </div>
                    </div>
-   
+
               </div>
-            
-            
+
+
 
 
         </div>
-        
-        
+
+
     </div>
           </div>
     <!--End Header section  -->
     <!--Services Section-->
-    
+
     <section  id="services">
         <div class="container">
-          
+
             <div class="row text-center">
                 <div class="col-md-8 col-md-offset-2">
                     <h2>创立理念</h2>
-                   
+
                    <h3>用最真诚的服务帮助更多在日留学生早日实现自己的梦想。</h3>
                 </div>
 
@@ -135,7 +140,7 @@
 
                         <h3>师资力量 </h3>
                         <p>
-                            北京大学五学位博士<br>
+                            北京大学博士<br>
                             大连海事大学考试达人<br>
                             日本国立大学毕业专业讲师<br>
                         </p>
@@ -159,10 +164,10 @@
                     </div>
 
                 </div>
-                
+
             </div>
-            
-            
+
+
 
 
     </section>
@@ -188,7 +193,7 @@
                     <h2>课程设置</h2>
                     <h4>
                         <strong>
-                        
+
                         </strong>
                     </h4>
                 </div>
@@ -209,10 +214,10 @@
 
                         </ul>
                     </div>
-                    
-                    
 
-                    
+
+
+
 
                 </div>
             </div>
@@ -221,30 +226,64 @@
         </div>
     </section>
     <!--End Pricing Section -->
+
+    <!-- study-abroad Section -->
+<section  id="study-abroad">
+    <div class="container">
+      <div class="row text-center">
+          <div class="col-md-8 col-md-offset-2">
+
+              <h2>留学直通</h2>
+          </div>
+
+      </div>
+
+      <div class="row text-center">
+
+          <div class="col-md-12 ">
+
+
+<div class="col-md-12 col-sm-12">
+                  <ul class="plan study-aboard">
+                      <li >C.F.S留学直通车项在留学规划、签证指导等方面提供免费服务，帮助学员直达日本学校，打造具备核心竞争力的国际化人才。</li>
+
+                  </ul>
+              </div>
+
+
+
+
+
+          </div>
+      </div>
+
+
+
+    </div>
+</section>
+<!--End study-abroad Section -->
+
     <!--parallax two-->
     <section  id="Parallax-two">
-        <div class="container">
-
-            <div class="row text-center">
-
-            </div>
+      <div class="container">
 
 
-        </div>
+
+      </div>
     </section>
     <!--./parallax two-->
-    
+
 
     <!-- Contact Section -->
     <section  id="contact-sec">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                
+                <div class="col-md-6">
+
                     <div id="social-icon" class="contact-text">
 
-                    
-                    
+
+
                           邮编：<br>
                           ・1300026<br>
 地址：<br>
@@ -253,10 +292,19 @@
 ・准备中<br>
 Email: <br>
 ・crownforestschool@yahoo.co.jp<br>
-
                     </div>
                 </div>
-                
+
+                <div class="col-md-6">
+
+                    <div id="social-icon" class="contact-text">
+Wechat: <br>
+<div class="wechat-img">
+  <img src="assets/img/wechat.png" width="200px"/>
+</div>
+                    </div>
+                </div>
+
 
             </div>
         </div>
@@ -266,7 +314,7 @@ Email: <br>
     <!--footer Section -->
     <div class="for-full-back " id="footer">
         2018 CROWN FOREST SCHOOL | All Right Reserved
-         
+
     </div>
     <!--End footer Section -->
     <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
@@ -277,4 +325,13 @@ Email: <br>
     <!-- CUSTOM SCRIPT   -->
     <script src="assets/js/custom.js"></script>
 </body>
+
+  <script>
+  $(document).ready(function () {
+   $(".navbar-nav li a").click(function(event) {
+   $(".navbar-collapse").collapse('hide');
+   });
+  });
+  </script>
+
 </html>
