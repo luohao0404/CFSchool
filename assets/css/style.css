@@ -167,7 +167,9 @@ color: #fff;
 border-radius: 8px;
 margin-bottom:160px;
 
-border-style: solid; border-color: #092a35;
+border-style: solid;
+ border-color: #092a35;
+ border-width: 3px;
 
 }
     .div-trans .form-control {
@@ -190,9 +192,11 @@ color: #fff;
 -webkit-border-radius: 5px;
 -moz-border-radius: 5px;
 border-radius: 8px;
-margin-bottom:0px;
+margin-bottom:25px;
 
-border-style: solid; border-color: #092a35;
+border-style: solid;
+border-color: #092a35;
+border-width: 2px;
 
 }
 
@@ -316,11 +320,13 @@ color:#fff;
 }
 
 .wechat-img {
-  margin-left:10px;
+  margin-left: 10px;
   border-radius: 5px;
-  border-style: inset; border-color: #092a35;
+  border-style: solid;
+  border-color: #092a35;
   width: 210px;
   padding-left: 2px;
+  border-width: 2px;
 
 }
 
@@ -334,4 +340,5 @@ color:#fff;
     color:#fcf9f9;
     padding:20px 50px 20px 50px;
     text-align:right;
+    font-size: 15px;
 }
